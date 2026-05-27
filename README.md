@@ -1,6 +1,6 @@
 # Tabluna
 
-![Tabluna Logo/Banner (Optional)](https://your-image-url.com/tabluna-banner.png)
+![Tabluna Logo/Banner (Optional)](https://cdn.discordapp.com/attachments/1509139544644128828/1509150485863596043/Gemini_Generated_Image_4s14zp4s14zp4s14.png?ex=6a18216a&is=6a16cfea&hm=01532be1ac2c6eb36e83eecf879f19289bdd961381ab0d051999a962edfa2864&)
 
 Tabluna ist ein leistungsstarkes und hochgradig anpassbares Spigot/PaperMC-Plugin, das es Server-Administratoren ermöglicht, die Tabliste (Spielerliste), Scoreboards und Chat-Formatierungen auf ihrem Minecraft-Server vollständig zu gestalten. Mit umfassender Unterstützung für LuckPerms und dynamische Animationen bietet Tabluna eine einzigartige Möglichkeit, das Spielerlebnis zu personalisieren.
 
