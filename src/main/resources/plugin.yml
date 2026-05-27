@@ -1,0 +1,28 @@
+name: Tabluna
+prefix: Moon <3
+version: '${version}'
+
+main: de.Lunora.tabluna.Tabluna
+api-version: '1.13'
+load: POSTWORLD
+
+authors: [ moonprincess ]
+softdepend: [LuckPerms]
+
+commands:
+  tabluna:
+    description: Main command for Tabluna
+    aliases: [tab]
+  chat:
+    description: Chat commands for Tabluna
+    aliases: [c]
+  rules:
+    description: Zeigt die Server-Regeln an.
+
+permissions:
+  tabluna.admin:
+    description: Permission to reload the plugin
+    default: op
+  tabluna.chat.admin:
+    description: Permission to use chat commands like /chat clear
+    default: op

@@ -1,0 +1,77 @@
+# Tabluna Config
+
+header-footer:
+  enabled: true
+  designs:
+    default:
+      header:
+        - "<gradient:#FFFFFF:#FFFF00>&m                                                </gradient>"
+        - "&3&lServer name"
+        - "&r&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
+        - "&r&7Online players: &f%online%"
+        - ""
+      footer:
+        - "%animation:time%"
+        - "&2Ping: %ping%"
+        - ""
+        - "<gradient:#FFFFFF:#FFFF00>&m                                                </gradient>"
+
+abovename:
+  enabled: true
+  text: "&6Clan &8| &a%geld%€"
+
+# LuckPerms Integration & Chat
+chat:
+  enabled: true
+  format: "%luckperms_prefix%%player%%luckperms_suffix% &8» &f%message%"
+  filter:
+    enabled: true
+    forbidden-words: ["idiot", "noob"]
+    blocked-message: "&cDeine Nachricht wurde blockiert!"
+    block-entire-message: true
+    replacement: "***"
+
+# Regeln System
+rules:
+  display-mode: "CHAT"
+  title: "&6&lServer Regeln"
+  lines:
+    - "&e1. §7Respektiere andere Spieler."
+    - "&e2. §7Kein Spam oder Eigenwerbung."
+  book:
+    author: "Server Team"
+    title: "Regelbuch"
+
+scoreboard-teams:
+  enabled: true
+  sorting-types:
+    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
+
+playerlist-objective:
+  enabled: true
+  value: "%ping%"
+  title: "TAB"
+
+# Scoreboard Konfiguration mit Animationen
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    scoreboard:
+      title: "Lunra-tab by Moon"
+      lines:
+        - "    &5%date%"
+        - "------------------"
+        - "&aStatus:&r %animation:ScoreboardInfo%"
+        - "&5Server:&r SMP"
+        - "&eSpieler:&r &f%online%"
+        - "&4Welt:&r &f%world%"
+        - "&cKonto:&r &f%geld%€"
+        - "------------------"
+        - "&2Ping:&r &f%ping%ms"
+        - "&dRank:&r &f%luckperms_prefix%%luckperms_group%"
+        - "------------------"
+        - "&ewww.tabluna.de"

@@ -1,0 +1,32 @@
+Welcome:
+  change-interval: 500
+  texts:
+    - "&eW"
+    - "&eWe"
+    - "&eWel"
+    - "&eWelc"
+    - "&eWelco"
+    - "&eWelcom"
+    - "&eWelcome"
+    - "&6Welcome"
+    - "&eWelcome"
+
+ScoreboardInfo:
+  change-interval: 3000
+  texts:
+    - "&aAktiv&r"
+    - "&eSaison 1&r"
+    - "&bViel Spaß!&r"
+    - "&6Neuigkeiten...&r"
+
+time:
+  change-interval: 1000
+  texts:
+    - "&7%time%"
+
+web:
+  change-interval: 2000
+  texts:
+    - "&bwww.tabluna.de"
+    - "&3www.tabluna.de"
+    - "&fwww.tabluna.de"
